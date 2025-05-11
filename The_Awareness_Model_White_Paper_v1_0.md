@@ -1,6 +1,6 @@
 # The Awareness Model: Layered Cognition in Real and Artificial Agents
 
-**White Paper v1.0.0**
+**White Paper v1.0.2**
 **Author:** Rogério Figurelli
 **Date:** May 11, 2025
 
@@ -64,6 +64,43 @@ These solutions are not abstract—they are mapped to operational contexts in th
 10. **Ethical Considerations:** Examine the implications of building layered AI consciousness.
 
 ## 4. Core Principles and the Wisdom Equation
+
+Before delving into real-world scenarios, it's useful to preview the table-based schema that underpins this layered model. The model is structured as a matrix with each row corresponding to a cognitive layer (from U₀ to C₇) and each column representing agent-environment interactions. These include:
+
+* **Environment A / B**: External conditions perceived by Agent A and Agent B
+* **Channel A / B**: Input/output modalities (e.g., sensory signals, motor outputs)
+* **Person A / B**: Internal processing at a given cognitive level
+* **Channel X**: Communication bridge between agents at the same level
+
+This framework enables side-by-side comparison of how two agents engage across cognitive layers. Here is a blank template of the table used in scenario modeling:
+
+```markdown
+|------------|-------|-----------------------------|-----------|---------------------|------------------|------------------------|----------------|--------------------------|
+| Domain     | Level | Environment A               | Channel A | Person A            | Channel X        | Person B               | Channel B      | Environment B            |
+|------------|-------|-----------------------------|-----------|---------------------|------------------|------------------------|----------------|--------------------------|
+| —          | State |                             |           |                     |                  |                        |                |                          |
+| Conscious  | C₇    |                             |           |                     |                  |                        |                |                          |
+| Conscious  | C₆    |                             |           |                     |                  |                        |                |                          |
+| Conscious  | C₅    |                             |           |                     |                  |                        |                |                          |
+| Mind       | C₄    |                             |           |                     |                  |                        |                |                          |
+| Mind       | C₃    |                             |           |                     |                  |                        |                |                          |
+| Mind       | C₂    |                             |           |                     |                  |                        |                |                          |
+| Mind       | C₁    |                             |           |                     |                  |                        |                |                          |
+| Brain      | U₂    |                             |           |                     |                  |                        |                |                          |
+| Brain      | U₁    |                             |           |                     |                  |                        |                |                          |
+| Brain      | U₀    |                             |           |                     |                  |                        |                |                          |
+|------------|-------|-----------------------------|-----------|---------------------|------------------|------------------------|----------------|--------------------------|
+```
+
+This matrix is a flexible analytical tool that supports both diagnostic modeling and AI system design. Each cell in the matrix reflects the role or signal present at a particular cognitive layer and side of interaction (Agent A or B, or their environment). For example:
+
+* At level **C₅**, 'Person A' might show 'Typing intention', while 'Person B' might indicate 'Route re-evaluation', reflecting internal processes in a digital assistant scenario.
+* At level **U₁**, 'Channel A' could be 'Odor' from a nearby coffee cup, while 'Person A' might show 'Comfort tagging', indicating subconscious affective processing.
+* At level **C₂**, both agents might activate 'Alert detection' and 'Engine noise processing', respectively, if a sudden vehicle vibration is detected.
+
+The **'Environment A/B'** columns reflect external stimuli such as 'Dashboard lights', 'In-flight menus', or 'Hospital monitors'. The **'Channel A/B'** columns capture how each agent receives or sends information—via keyboard input, tactile feedback, or visual symbols. The **'Channel X'** column denotes any level-specific exchange of information or signaling between agents—such as a spoken command, gesture, or digital data packet.
+
+Through this format, the table allows us to observe how two entities—human or artificial—are differently or jointly engaged across various cognitive functions and levels of awareness. It becomes especially useful when comparing states (e.g., one awake, one asleep) or roles (e.g., clinician vs. AI assistant) to assess opportunities for synchrony, conflict, or support. In the next section, we fill in this structure with real-world examples, demonstrating its versatility and insight across diverse applications.
 
 This section outlines the foundational logic and mathematical grounding for the layered model. Each principle captures a different aspect of how consciousness and cognition emerge from structured levels, modulated by internal and external factors.
 
@@ -163,7 +200,8 @@ This scenario models a dual-agent cognitive interaction in a real-world driving 
 The assistant's cognitive layers (especially C₅–C₇) engage in planning and interpreting human input, while the driver exhibits awareness of both road and digital cues. This situation demonstrates the value of separating layer-dependent communication—highlighting how focus, attention, and context switching are modulated differently between human and machine.
 
 ```markdown
-| Domain     | Level | Environment A              | Channel A | Person A           | Channel X       | Person B               | Channel B     | Environment B           |
+|------------|-------|-----------------------------|-----------|---------------------|------------------|-------------------------|----------------|--------------------------|
+| Domain     | Level | Environment A               | Channel A | Person A           | Channel X       | Person B               | Channel B     | Environment B           |
 |------------|-------|-----------------------------|-----------|---------------------|------------------|-------------------------|----------------|--------------------------|
 | —          | State | Virtual                     | On        | Awake              | On               | Awake                  | Idle           | Real                     |
 | Conscious  | C₇    | Email client UI headline    | —         | Internal narrative | —                | Driving plan update    | —              | In-dash nav summary      |
@@ -176,6 +214,7 @@ The assistant's cognitive layers (especially C₅–C₇) engage in planning and
 | Brain      | U₂    | Chair cushion pressure      | —         | Postural reflex    | Talk (A ↔ B)     | Grip adjustment        | ← Steering     | Steering feedback        |
 | Brain      | U₁    | Coffee aroma from mug       | Odor      | Comfort tagging    | —                | Wind smell perception  | ← Exhaust      | Exhaust fumes            |
 | Brain      | U₀    | Screen backlight glow       | Light     | Presence detection | —                | Dashboard monitoring   | ← Dashboard    | Dash illumination        |
+|------------|-------|-----------------------------|-----------|---------------------|------------------|-------------------------|----------------|--------------------------|
 ```
 
 This table demonstrates how two agents (one human and one artificial) operate across different cognitive levels while interacting in real time. Despite both being in an “awake” state, their cognitive bandwidth, processing modalities, and reflex-response mechanisms differ, illustrating the layered model's power in capturing such asymmetries.
@@ -187,10 +226,11 @@ This scenario captures a high-stakes collaborative interaction between a human c
 The table below illustrates the alignment and differences in how layers are activated and interact between the two agents. This use case underscores the model’s strength in modeling inter-agent cognition and highlights how AI can provide meaningful support when properly structured within layered awareness logic.
 
 ```markdown
+|------------|-------|-----------------------------|-----------|---------------------|------------------|-------------------------|----------------|--------------------------|
 | Domain     | Level | Environment A               | Channel A | Person A           | Channel X       | Person B              | Channel B     | Environment B             |
-|------------|-------|------------------------------|-----------|---------------------|------------------|------------------------|----------------|----------------------------|
-| —          | State | Hospital                     | On        | Awake              | On               | Alert                 | Connected      | ICU Monitor               |
-| Conscious  | C₇    | Patient chart summary         | Voice     | Diagnostic planning| → Query          | AI reasoning engine    | ← NLP Module | Diagnostic suggestions     |
+|------------|-------|-----------------------------|-----------|---------------------|------------------|------------------------|----------------|----------------------------|
+| —          | State | Hospital                    | On        | Awake              | On               | Alert                 | Connected      | ICU Monitor               |
+| Conscious  | C₇    | Patient chart summary       | Voice     | Diagnostic planning| → Query          | AI reasoning engine    | ← NLP Module | Diagnostic suggestions     |
 | Conscious  | C₆    | Recent test results          | —         | Hypothesis testing | → Context       | Pattern matcher       | ← Record system | Prior symptom history     |
 | Conscious  | C₅    | Prescription notes           | Keyboard  | Instruction creation| Think (A → B)    | Dosage calculator      | ← Pharmacology | Medication database       |
 | Mind       | C₄    | Visual inspection of patient | Visual    | Clinical focus     | → Attention      | Vital anomaly alert   | ← Sensor       | Skin/motor response       |
@@ -200,6 +240,7 @@ The table below illustrates the alignment and differences in how layers are acti
 | Brain      | U₂    | Chair tilt while examining   | Touch     | Balance reflex     | Talk (A ↔ B)     | Grasp tool adjustment | ← Arm sensor   | Robotic arm feedback      |
 | Brain      | U₁    | Alcohol scent detection       | Odor      | Infection alert    | —                | Contamination analysis| ← Chem sensor  | Airborne samples          |
 | Brain      | U₀    | Monitor glow at night        | Light     | Presence recognition| —                | Ambient status update | ← Light sensor | Room lighting              |
+|------------|-------|-----------------------------|-----------|---------------------|------------------|-------------------------|----------------|--------------------------|
 ```
 
 This table demonstrates how structured inter-agent communication and decision-making can be mapped onto layered cognitive processes, enabling traceability and better interface design in clinical environments.
@@ -211,8 +252,9 @@ This scenario presents a common yet cognitively asymmetric context: one individu
 The awake individual exhibits activity in conscious and preconscious layers, interacting with the flight environment, making decisions, and optionally attempting low-level communication with the sleeping partner. Meanwhile, the sleeping person operates predominantly within unconscious layers, with reduced responsiveness and internal state dynamics (e.g., REM dreaming, postural adjustments).
 
 ```markdown
-| Domain     | Level | Environment A              | Channel A | Person A           | Channel X       | Person B             | Channel B     | Environment B           |
-|------------|-------|-----------------------------|-----------|---------------------|------------------|------------------------|----------------|--------------------------|
+|------------|-------|-----------------------------|-----------|--------------------|------------------|-------------------------|----------------|--------------------------|
+| Domain     | Level | Environment A              | Channel A | Person A            | Channel X       | Person B             | Channel B     | Environment B           |
+|------------|-------|-----------------------------|-----------|--------------------|------------------|------------------------|----------------|--------------------------|
 | —          | State | Airplane cabin              | On        | Awake              | —                | Asleep                | Off            | Ambient engine hum       |
 | Conscious  | C₇    | Travel itinerary            | —         | Internal planning  | —                | Dreamlike imagery     | —              | Subconscious content     |
 | Conscious  | C₆    | In-flight menu              | Visual    | Reflective choice  | —                | —                     | —              | —                        |
@@ -224,6 +266,7 @@ The awake individual exhibits activity in conscious and preconscious layers, int
 | Brain      | U₂    | Seat pressure               | Touch     | Postural shift     | Shared (U)       | Breathing adjustment   | —              | Reclined posture         |
 | Brain      | U₁    | Coffee aroma in cabin       | Odor      | Comfort tagging    | —                | Reduced olfactory      | —              | Neutral stimuli          |
 | Brain      | U₀    | Cabin lighting dimmed       | Light     | Circadian sync     | —                | Sleep initiation       | —              | Cabin atmosphere         |
+|------------|-------|-----------------------------|-----------|---------------------|------------------|-------------------------|----------------|--------------------------|
 ```
 
 This table illustrates how the awake passenger maintains full sensory and cognitive engagement, ranging from planning (C₇) to comfort-based tagging (U₁), while the sleeping companion shows muted input-output dynamics. The scenario highlights the importance of state-aware inter-agent modeling, especially in shared environments where communication potential depends on both parties’ activation layers.
@@ -248,14 +291,14 @@ This section categorizes how the layered model is being or could be applied acro
 
 ## 9. References
 
-\[1] Baars, B. J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
-\[2] Dehaene, S., & Naccache, L. (2001). Toward a cognitive neuroscience of consciousness: basic evidence and a workspace framework. *Cognition*, 79(1–2), 1–37.
-\[3] Tononi, G. (2004). An information integration theory of consciousness. *BMC Neuroscience*, 5(1), 42.
-\[4] Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127–138.
-\[5] Weng, J. (2022). A Developmental Network Model of Conscious Learning in Biological Brains. *IEEE Transactions on Cognitive and Developmental Systems*, 14(1), 1–12.
-\[6] Grossberg, S. (2021). *Conscious Mind, Resonant Brain: How Each Brain Makes a Mind*. Oxford University Press.
-\[7] Hawkins, J. (2004). *On Intelligence*. Times Books.
-\[8] Figurelli, R. (2024). *The Equation of Wisdom: An Intuitive Approach to Balancing AI and Human Values*. Kindle Edition.
+[1] Baars, B. J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
+[2] Dehaene, S., & Naccache, L. (2001). Toward a cognitive neuroscience of consciousness: basic evidence and a workspace framework. *Cognition*, 79(1–2), 1–37.
+[3] Tononi, G. (2004). An information integration theory of consciousness. *BMC Neuroscience*, 5(1), 42.
+[4] Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127–138.
+[5] Weng, J. (2022). A Developmental Network Model of Conscious Learning in Biological Brains. *IEEE Transactions on Cognitive and Developmental Systems*, 14(1), 1–12.
+[6] Grossberg, S. (2021). *Conscious Mind, Resonant Brain: How Each Brain Makes a Mind*. Oxford University Press.
+[7] Hawkins, J. (2004). *On Intelligence*. Times Books.
+[8] Figurelli, R. (2024). *The Equation of Wisdom: An Intuitive Approach to Balancing AI and Human Values*. Kindle Edition.
 
 ## 10. License
 
