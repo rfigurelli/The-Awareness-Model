@@ -1,7 +1,7 @@
 # The Awareness Model: Layered Cognition in Real and Artificial Agents
 
-**White Paper v1.0.2**
-**Author:** Rogério Figurelli
+**White Paper v1.0.2**  
+**Author:** Rogério Figurelli  
 **Date:** May 11, 2025
 
 ## Executive Summary
