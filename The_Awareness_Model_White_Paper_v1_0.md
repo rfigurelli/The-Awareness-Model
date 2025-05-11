@@ -291,14 +291,21 @@ This section categorizes how the layered model is being or could be applied acro
 
 ## 9. References
 
-[1] Baars, B. J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
-[2] Dehaene, S., & Naccache, L. (2001). Toward a cognitive neuroscience of consciousness: basic evidence and a workspace framework. *Cognition*, 79(1–2), 1–37.
-[3] Tononi, G. (2004). An information integration theory of consciousness. *BMC Neuroscience*, 5(1), 42.
-[4] Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127–138.
-[5] Weng, J. (2022). A Developmental Network Model of Conscious Learning in Biological Brains. *IEEE Transactions on Cognitive and Developmental Systems*, 14(1), 1–12.
-[6] Grossberg, S. (2021). *Conscious Mind, Resonant Brain: How Each Brain Makes a Mind*. Oxford University Press.
-[7] Hawkins, J. (2004). *On Intelligence*. Times Books.
-[8] Figurelli, R. (2024). *The Equation of Wisdom: An Intuitive Approach to Balancing AI and Human Values*. Kindle Edition.
+\[1] Baars, B. J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
+
+\[2] Dehaene, S., & Naccache, L. (2001). Toward a cognitive neuroscience of consciousness: basic evidence and a workspace framework. *Cognition*, 79(1–2), 1–37.
+
+\[3] Tononi, G. (2004). An information integration theory of consciousness. *BMC Neuroscience*, 5(1), 42.
+
+\[4] Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127–138.
+
+\[5] Weng, J. (2022). A Developmental Network Model of Conscious Learning in Biological Brains. *IEEE Transactions on Cognitive and Developmental Systems*, 14(1), 1–12.
+
+\[6] Grossberg, S. (2021). *Conscious Mind, Resonant Brain: How Each Brain Makes a Mind*. Oxford University Press.
+
+\[7] Hawkins, J. (2004). *On Intelligence*. Times Books.
+
+\[8] Figurelli, R. (2024). *The Equation of Wisdom: An Intuitive Approach to Balancing AI and Human Values*. Kindle Edition.
 
 ## 10. License
 
