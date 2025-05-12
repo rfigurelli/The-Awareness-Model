@@ -1,6 +1,6 @@
 # The Awareness Model: Layered Cognition in Real and Artificial Agents
 
-**White Paper v1.0.2**  
+**White Paper v1.0.4**  
 **Author:** Rogério Figurelli  
 **Date:** May 11, 2025
 
@@ -123,6 +123,10 @@ Where:
 * θᵢ(S): activation threshold modulated by state S
 
 This models how certain layers deactivate during sleep or impairment and reactivate when sufficient input salience is reached.
+
+**Addressing the Hard Problem of Consciousness**
+
+While the hard problem of consciousness—as posed by Chalmers [9]—raises questions about how and why subjective experience arises from physical processes, the proposed model introduces a quantitative pathway to approach this issue. By explicitly modeling activation thresholds (θᵢ) and input salience (σᵢ) across hierarchical cognitive layers, the framework offers a structured mechanism to correlate qualitative states (such as introspection, agency, or qualia) with measurable neural and computational dynamics. Although it does not claim to solve the hard problem, this formalization narrows the gap between first-person phenomenology and third-person data by providing an operational map where conscious content emerges only when layered activation surpasses context-dependent thresholds. This layered activation logic allows for testable predictions and artificial simulations that can gradually illuminate the mechanisms underpinning subjective awareness.
 
 ### 4.3 Reciprocal Interaction
 
@@ -306,6 +310,8 @@ This section categorizes how the layered model is being or could be applied acro
 \[7] Hawkins, J. (2004). *On Intelligence*. Times Books.
 
 \[8] Figurelli, R. (2024). *The Equation of Wisdom: An Intuitive Approach to Balancing AI and Human Values*. Kindle Edition.
+
+\[9] Chalmers, D. J. (1995). Facing up to the problem of consciousness. *Journal of Consciousness Studies*, 2(3), 200–219.
 
 ## 10. License
 
